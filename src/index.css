@@ -1,0 +1,278 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #104a24;
+  --error: #e7195a;
+}
+body {
+  background: #fff;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: #104a24;
+  align-items: center;
+}
+header h1{
+  color: #fdfeff;
+  text-align: center;
+
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  text-align: center;
+  color: #fdfeff;
+  text-decoration: none;
+  text-align: center;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* homepage */
+.home {
+  background-color: #fff;
+}
+#route-details {
+
+  background:  #f5f5f5;
+  align-items: center;
+  border-radius: 25px;
+  margin: 20px auto;
+  padding: 10px;
+  position: relative;
+  max-width: 450px;
+  height: 500px;
+}
+#route-details img{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+
+}
+#route-details h2, h5, h6 {
+  text-align: center;
+}
+#route-details h2 {
+  line-height: 120%;
+  margin: 30px 50px -20px;
+  padding: 40px -10px 80px 40px;
+  font-size: 1.5em;
+  color: black;
+}
+#route-details h3{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: rgb(255, 255, 255);
+  text-shadow: 0.1px 0.1px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#route-details h7{
+  position: absolute;
+  top: 44.2%;
+  right: 10%;
+  color: rgb(255, 255, 255);
+  text-shadow: 0.1px 0.1px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#route-details h6{
+  color:#555;
+  font-size: 0.6em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#route-details h5{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#route-details p {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 0.7em;
+  color: #555;
+  text-align: center;
+}
+
+#route-details button{
+  margin: 5% 44%;
+}
+
+#route-details i {
+  position: absolute;
+  top: 35px;
+  right: 45px;
+  cursor: pointer;
+  background:  #f5f5f5;
+  opacity: 95%;
+  padding: 5px;
+  border-radius: 50%;
+  color: #d10f0f;
+  text-align: center;
+}
+
+#route-details span {
+  position: absolute;
+  top: 35px;
+  left: 45px;
+  cursor: pointer;
+  /*background:  #f5f5f5;*/
+  opacity: 80%;
+  padding: 5px;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+#overlay {
+  position: fixed;
+  display: block;
+  width: 50%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 241, 241, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* form */
+.region-form{
+  background: #f5f5f5;
+  border-radius: 25px;
+  margin: 0px auto;
+  padding: 10px 250px 100px 30px;
+  position: relative;
+  align-items: center;
+  width: auto;
+  
+}
+.region-form h3{
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align: center;
+
+}
+.region-form select{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 60%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.region-form button{
+  position: absolute;
+  top: 58%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+label, input, select {
+  display: block;
+  font-family: "Poppins";
+}
+input, select {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  padding: 6px 10px;
+  border-radius: 4px;
+  color: #000;
+  border: 2px solid #000;
+  cursor: pointer;
+  font-size: .8em;
+  font-family: Poppins;
+  
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin: 10px;
+}
+nav button {
+  background: #104a24;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 20px;
+}
+
+body {
+  margin: 0 0 55px 0;
+}
+
+/* auth forms */
+form.signup, form.login, form.create {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 50px;
+  background: #f5f5f5;
+  border-radius: 25px;
+}
+
+form.region-form{
+  max-width: 200px;
+}
