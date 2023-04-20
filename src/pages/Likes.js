@@ -17,7 +17,7 @@ const Likes = () =>{
         const fetchRoutes = async() => {
 
             // Fetch logic lives here
-            const response = await fetch('/api/routes/liked', {
+            const response = await fetch('https://wildroutes-api.onrender.com/api/routes/liked', {
                 headers: {
                     'Authorization': `Bearer ${user.token}`
                 }

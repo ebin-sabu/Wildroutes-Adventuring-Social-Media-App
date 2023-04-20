@@ -14,9 +14,9 @@ const RegionForm = () => {
     var fetchLink = " "
 
     if(region===" "){
-      fetchLink = '/api/routes/'
+      fetchLink = 'https://wildroutes-api.onrender.com/api/routes/'
     }else{
-      fetchLink = '/api/routes/region/'+region
+      fetchLink = 'https://wildroutes-api.onrender.com/api/routes/region/'+region
     }
 
     // Fetch logic lives here

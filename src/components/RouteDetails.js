@@ -9,7 +9,7 @@ const RouteDetails = ({route}) => {
         if(!user){
             return
         }
-        const response = await fetch('/api/routes/like/' + route._id, {
+        const response = await fetch('https://wildroutes-api.onrender.com/api/routes/like/' + route._id, {
             method: 'PATCH',
             headers:{
                 'Authorization': `Bearer ${user.token}`
@@ -28,7 +28,7 @@ const RouteDetails = ({route}) => {
             return
         }
 
-        const response = await fetch('/api/routes/like/' + route._id, {
+        const response = await fetch('https://wildroutes-api.onrender.com/api/routes/like/' + route._id, {
             method: 'DELETE',
             headers:{
                 'Authorization': `Bearer ${user.token}`
@@ -47,7 +47,7 @@ const RouteDetails = ({route}) => {
             return
         }
 
-        const response = await fetch('/api/routes/' + route._id, {
+        const response = await fetch('https://wildroutes-api.onrender.com/api/routes/' + route._id, {
             method: 'DELETE',
             headers:{
                 'Authorization': `Bearer ${user.token}`

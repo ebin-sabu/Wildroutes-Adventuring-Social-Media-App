@@ -16,7 +16,7 @@ export const usePost = () => {
         setIsLoading(true)
         setError(null)
 
-        const response = await fetch('/api/routes', {
+        const response = await fetch('https://wildroutes-api.onrender.com/api/routes', {
             method: 'POST',
             headers: {
                 'Authorization': `Bearer ${user.token}`,

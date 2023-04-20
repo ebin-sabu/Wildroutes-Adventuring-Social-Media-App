@@ -16,7 +16,7 @@ const Home = () =>{
             // Fetch logic lives here
 
             //For production, every request points to correct endpoints
-            const response = await fetch('/api/routes', {
+            const response = await fetch('https://wildroutes-api.onrender.com/api/routes', {
                 headers: {
                     'Authorization': `Bearer ${user.token}`
                 }

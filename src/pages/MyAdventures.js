@@ -17,7 +17,7 @@ const MyAdventures = () =>{
         const fetchRoutes = async() => {
 
             // Fetch logic lives here
-            const response = await fetch('/api/routes/myRoutes', {
+            const response = await fetch('https://wildroutes-api.onrender.com/api/routes/myRoutes', {
                 headers: {
                     'Authorization': `Bearer ${user.token}`
                 }
