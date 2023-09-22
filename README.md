@@ -1,4 +1,4 @@
-# WildRoutes
+# WildRoutes - Frontend
 
 A fullstack web app that allows users to explore new adventures. A Live deployment Can be found [here.](https://wildroutes.onrender.com)
 
